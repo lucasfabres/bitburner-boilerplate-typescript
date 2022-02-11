@@ -12,6 +12,6 @@
   "scripts": {
     "build": "tsc",
     "clear": "rm -rf dist",
-    "dev": "nodemon --watch 'src/' --exec 'tsc' -e ts"
+    "dev": "nodemon --watch 'src/' --exec 'npm run clear & npm run build' -e ts"
   }
 }
